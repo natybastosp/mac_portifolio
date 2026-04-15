@@ -66,12 +66,12 @@ const dockApps = [
     icon: "terminal.png",
     canOpen: true,
   },
-  {
+  /* {
     id: "trash",
     name: "Archive", // was "Trash"
     icon: "trash.png",
     canOpen: false,
-  },
+  }, */
 ];
 
 const blogPosts = [
