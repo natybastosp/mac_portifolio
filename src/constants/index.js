@@ -101,28 +101,24 @@ const blogPosts = [
 
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "HTML", "CSS"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "Frameworks",
+    items: ["React", "Vue", "GSAP", "Zustand", "Pinia", "Immer"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind", "Sass", "Animations"],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    category: "Tools",
+    items: ["Vite", "Git", "GitHub", "ESLint"],
   },
   {
-    category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
-  },
-  {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    category: "Design",
+    items: ["Figma", "Responsive", "UX/UI"],
   },
 ];
 
@@ -427,10 +423,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I'm Natália 👋, a Front-End Developer with 2+ years of experience turning complex ideas into beautiful, intuitive interfaces.",
+        "I'm passionate about JavaScript, React, Vue.js, and creating interactive experiences with GSAP animations. Computer Engineering graduate with a love for both code and design.",
+        "I specialize in responsive design, state management with Zustand, and pixel-perfect UI/UX implementation using Tailwind CSS and Figma.",
+        "When I'm not coding, you'll probably find me exploring design systems, contributing to open source, or crafting new portfolio experiences. Star Wars enthusiast! 🚀",
       ],
     },
   ],

@@ -97,7 +97,7 @@ const Welcome = () => {
       {/* Subtitle with interactive font-weight animation */}
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, I'm Natalia! Welcome to my",
+          "Hey, I'm Natália! Welcome to my",
           "text-3xl font-georama",
           100,
         )}
