@@ -2,9 +2,11 @@
 import dayjs from "dayjs";
 // Import navigation configuration data
 import { navIcons, navLinks } from "#constants";
+import useWindowStore from "#store/window";
 
 // Navbar component - displays top navigation bar with logo, links, icons, and current time
 const Navbar = () => {
+  const { openWindow } = useWindowStore();
   return (
     <nav>
       {/* Left side: Logo and branding */}
@@ -14,8 +16,8 @@ const Navbar = () => {
 
         {/* Navigation links menu */}
         <ul>
-          {navLinks.map(({ id, name }) => (
-            <li key={id}>
+          {navLinks.map(({ id, name, type }) => (
+            <li key={id} onClick={() => openWindow(type)}>
               <p>{name}</p>
             </li>
           ))}
